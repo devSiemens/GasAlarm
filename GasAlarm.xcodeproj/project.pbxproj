@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86332D50266AD8DC003BFB58 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86332D4F266AD8DC003BFB58 /* AddViewController.swift */; };
+		86B1C1452668EF4F005EF53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1442668EF4F005EF53A /* AppDelegate.swift */; };
+		86B1C1472668EF4F005EF53A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1462668EF4F005EF53A /* SceneDelegate.swift */; };
+		86B1C1492668EF4F005EF53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1482668EF4F005EF53A /* ViewController.swift */; };
+		86B1C14C2668EF4F005EF53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B1C14A2668EF4F005EF53A /* Main.storyboard */; };
+		86B1C14F2668EF4F005EF53A /* GasAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C14D2668EF4F005EF53A /* GasAlarm.xcdatamodeld */; };
+		86B1C1512668EF51005EF53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B1C1502668EF51005EF53A /* Assets.xcassets */; };
+		86B1C1542668EF51005EF53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B1C1522668EF51005EF53A /* LaunchScreen.storyboard */; };
+		86B1C15F2668EF51005EF53A /* GasAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C15E2668EF51005EF53A /* GasAlarmTests.swift */; };
+		86B1C16A2668EF51005EF53A /* GasAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1692668EF51005EF53A /* GasAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B1C15B2668EF51005EF53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B1C1392668EF4F005EF53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B1C1402668EF4F005EF53A;
+			remoteInfo = GasAlarm;
+		};
+		86B1C1662668EF51005EF53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B1C1392668EF4F005EF53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B1C1402668EF4F005EF53A;
+			remoteInfo = GasAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86332D4F266AD8DC003BFB58 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		86B1C1412668EF4F005EF53A /* GasAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B1C1442668EF4F005EF53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86B1C1462668EF4F005EF53A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86B1C1482668EF4F005EF53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86B1C14B2668EF4F005EF53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86B1C14E2668EF4F005EF53A /* GasAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GasAlarm.xcdatamodel; sourceTree = "<group>"; };
+		86B1C1502668EF51005EF53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86B1C1532668EF51005EF53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86B1C1552668EF51005EF53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B1C15A2668EF51005EF53A /* GasAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B1C15E2668EF51005EF53A /* GasAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasAlarmTests.swift; sourceTree = "<group>"; };
+		86B1C1602668EF51005EF53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B1C1652668EF51005EF53A /* GasAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B1C1692668EF51005EF53A /* GasAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasAlarmUITests.swift; sourceTree = "<group>"; };
+		86B1C16B2668EF51005EF53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B1C13E2668EF4F005EF53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1C1572668EF51005EF53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1C1622668EF51005EF53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B1C1382668EF4F005EF53A = {
+			isa = PBXGroup;
+			children = (
+				86B1C1432668EF4F005EF53A /* GasAlarm */,
+				86B1C15D2668EF51005EF53A /* GasAlarmTests */,
+				86B1C1682668EF51005EF53A /* GasAlarmUITests */,
+				86B1C1422668EF4F005EF53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B1C1422668EF4F005EF53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B1C1412668EF4F005EF53A /* GasAlarm.app */,
+				86B1C15A2668EF51005EF53A /* GasAlarmTests.xctest */,
+				86B1C1652668EF51005EF53A /* GasAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B1C1432668EF4F005EF53A /* GasAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				86B1C1442668EF4F005EF53A /* AppDelegate.swift */,
+				86B1C1462668EF4F005EF53A /* SceneDelegate.swift */,
+				86B1C1482668EF4F005EF53A /* ViewController.swift */,
+				86B1C14A2668EF4F005EF53A /* Main.storyboard */,
+				86332D4F266AD8DC003BFB58 /* AddViewController.swift */,
+				86B1C1502668EF51005EF53A /* Assets.xcassets */,
+				86B1C1522668EF51005EF53A /* LaunchScreen.storyboard */,
+				86B1C1552668EF51005EF53A /* Info.plist */,
+				86B1C14D2668EF4F005EF53A /* GasAlarm.xcdatamodeld */,
+			);
+			path = GasAlarm;
+			sourceTree = "<group>";
+		};
+		86B1C15D2668EF51005EF53A /* GasAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				86B1C15E2668EF51005EF53A /* GasAlarmTests.swift */,
+				86B1C1602668EF51005EF53A /* Info.plist */,
+			);
+			path = GasAlarmTests;
+			sourceTree = "<group>";
+		};
+		86B1C1682668EF51005EF53A /* GasAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86B1C1692668EF51005EF53A /* GasAlarmUITests.swift */,
+				86B1C16B2668EF51005EF53A /* Info.plist */,
+			);
+			path = GasAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B1C1402668EF4F005EF53A /* GasAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B1C16E2668EF51005EF53A /* Build configuration list for PBXNativeTarget "GasAlarm" */;
+			buildPhases = (
+				86B1C13D2668EF4F005EF53A /* Sources */,
+				86B1C13E2668EF4F005EF53A /* Frameworks */,
+				86B1C13F2668EF4F005EF53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasAlarm;
+			productName = GasAlarm;
+			productReference = 86B1C1412668EF4F005EF53A /* GasAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B1C1592668EF51005EF53A /* GasAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B1C1712668EF51005EF53A /* Build configuration list for PBXNativeTarget "GasAlarmTests" */;
+			buildPhases = (
+				86B1C1562668EF51005EF53A /* Sources */,
+				86B1C1572668EF51005EF53A /* Frameworks */,
+				86B1C1582668EF51005EF53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B1C15C2668EF51005EF53A /* PBXTargetDependency */,
+			);
+			name = GasAlarmTests;
+			productName = GasAlarmTests;
+			productReference = 86B1C15A2668EF51005EF53A /* GasAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B1C1642668EF51005EF53A /* GasAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B1C1742668EF51005EF53A /* Build configuration list for PBXNativeTarget "GasAlarmUITests" */;
+			buildPhases = (
+				86B1C1612668EF51005EF53A /* Sources */,
+				86B1C1622668EF51005EF53A /* Frameworks */,
+				86B1C1632668EF51005EF53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B1C1672668EF51005EF53A /* PBXTargetDependency */,
+			);
+			name = GasAlarmUITests;
+			productName = GasAlarmUITests;
+			productReference = 86B1C1652668EF51005EF53A /* GasAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B1C1392668EF4F005EF53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					86B1C1402668EF4F005EF53A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					86B1C1592668EF51005EF53A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 86B1C1402668EF4F005EF53A;
+					};
+					86B1C1642668EF51005EF53A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 86B1C1402668EF4F005EF53A;
+					};
+				};
+			};
+			buildConfigurationList = 86B1C13C2668EF4F005EF53A /* Build configuration list for PBXProject "GasAlarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B1C1382668EF4F005EF53A;
+			productRefGroup = 86B1C1422668EF4F005EF53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B1C1402668EF4F005EF53A /* GasAlarm */,
+				86B1C1592668EF51005EF53A /* GasAlarmTests */,
+				86B1C1642668EF51005EF53A /* GasAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B1C13F2668EF4F005EF53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1C1542668EF51005EF53A /* LaunchScreen.storyboard in Resources */,
+				86B1C1512668EF51005EF53A /* Assets.xcassets in Resources */,
+				86B1C14C2668EF4F005EF53A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1C1582668EF51005EF53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1C1632668EF51005EF53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B1C13D2668EF4F005EF53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86332D50266AD8DC003BFB58 /* AddViewController.swift in Sources */,
+				86B1C1492668EF4F005EF53A /* ViewController.swift in Sources */,
+				86B1C14F2668EF4F005EF53A /* GasAlarm.xcdatamodeld in Sources */,
+				86B1C1452668EF4F005EF53A /* AppDelegate.swift in Sources */,
+				86B1C1472668EF4F005EF53A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1C1562668EF51005EF53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1C15F2668EF51005EF53A /* GasAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1C1612668EF51005EF53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1C16A2668EF51005EF53A /* GasAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B1C15C2668EF51005EF53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B1C1402668EF4F005EF53A /* GasAlarm */;
+			targetProxy = 86B1C15B2668EF51005EF53A /* PBXContainerItemProxy */;
+		};
+		86B1C1672668EF51005EF53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B1C1402668EF4F005EF53A /* GasAlarm */;
+			targetProxy = 86B1C1662668EF51005EF53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86B1C14A2668EF4F005EF53A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B1C14B2668EF4F005EF53A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86B1C1522668EF51005EF53A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B1C1532668EF51005EF53A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86B1C16C2668EF51005EF53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86B1C16D2668EF51005EF53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B1C16F2668EF51005EF53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N65A63XJ9N;
+				INFOPLIST_FILE = GasAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GasAlarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		86B1C1702668EF51005EF53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N65A63XJ9N;
+				INFOPLIST_FILE = GasAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GasAlarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		86B1C1722668EF51005EF53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N65A63XJ9N;
+				INFOPLIST_FILE = GasAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GasAlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasAlarm.app/GasAlarm";
+			};
+			name = Debug;
+		};
+		86B1C1732668EF51005EF53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N65A63XJ9N;
+				INFOPLIST_FILE = GasAlarmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GasAlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasAlarm.app/GasAlarm";
+			};
+			name = Release;
+		};
+		86B1C1752668EF51005EF53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N65A63XJ9N;
+				INFOPLIST_FILE = GasAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GasAlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasAlarm;
+			};
+			name = Debug;
+		};
+		86B1C1762668EF51005EF53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N65A63XJ9N;
+				INFOPLIST_FILE = GasAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.GasAlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B1C13C2668EF4F005EF53A /* Build configuration list for PBXProject "GasAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1C16C2668EF51005EF53A /* Debug */,
+				86B1C16D2668EF51005EF53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B1C16E2668EF51005EF53A /* Build configuration list for PBXNativeTarget "GasAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1C16F2668EF51005EF53A /* Debug */,
+				86B1C1702668EF51005EF53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B1C1712668EF51005EF53A /* Build configuration list for PBXNativeTarget "GasAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1C1722668EF51005EF53A /* Debug */,
+				86B1C1732668EF51005EF53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B1C1742668EF51005EF53A /* Build configuration list for PBXNativeTarget "GasAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1C1752668EF51005EF53A /* Debug */,
+				86B1C1762668EF51005EF53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86B1C14D2668EF4F005EF53A /* GasAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86B1C14E2668EF4F005EF53A /* GasAlarm.xcdatamodel */,
+			);
+			currentVersion = 86B1C14E2668EF4F005EF53A /* GasAlarm.xcdatamodel */;
+			path = GasAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86B1C1392668EF4F005EF53A /* Project object */;
+}
