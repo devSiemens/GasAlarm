@@ -1,4 +1,3 @@
 # GasAlarm
-First test UI 
-this app was created as a test UI 
-was intended this app a monitors gas prices in real time
+This app was created as a test UI.
+Was intended this app a monitors gas prices in real time
